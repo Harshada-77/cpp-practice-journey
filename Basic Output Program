@@ -1,1 +1,29 @@
+/*
+Title       : Basic Output Program
+Description : A simple program to print multiple output lines using cout.
+
+Input       : None
+Output      : Displays introductory text on the screen.
+
+Sample Run  :
+Hello World!
+This is my first program in C++.
+I am learning C++ programming.
+
+My name is Harshada Raut.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello World!" << endl;
+    cout << "This is my first program in C++." << endl;
+    cout << "I am learning C++ programming." << endl;
+
+    cout << endl;
+    cout << "My name is Harshada Raut." << endl;
+
+    return 0;
+}
 
