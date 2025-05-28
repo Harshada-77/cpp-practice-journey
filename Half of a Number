@@ -1,0 +1,23 @@
+/*
+Program Name : Half of a Number  
+Description  : Takes an integer and displays half its value.  
+Input        : Integer  
+Output       : Half value as float  
+
+Sample Run   :  
+Enter the number= 8  
+Half of the number is= 4  
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    cout << "Enter the number=";
+    cin >> x;
+    cout << "Half of the number is=";
+    float y = (float)x / 2;
+    cout << y << "\n";
+    return 0;
+}
