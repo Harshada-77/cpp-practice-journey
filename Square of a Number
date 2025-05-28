@@ -1,0 +1,21 @@
+/*
+Program Name : Square of a Number (User Input)  
+Description  : Takes a number from the user and prints its square.  
+Input        : Integer number  
+Output       : Square of the input number  
+
+Sample Run   :  
+Enter the number= 5  
+Square of the number is= 25  
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    cout << "Enter the number=";
+    cin >> x;
+    cout << "Square of the number is=" << x * x << "\n";
+    return 0;
+}
