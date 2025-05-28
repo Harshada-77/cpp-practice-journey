@@ -1,0 +1,21 @@
+/*
+Program Name : Simple Interest  
+Description  : Calculates simple interest given principal, rate and time.  
+Input        : None (Values hardcoded)  
+Output       : Simple interest  
+
+Sample Run   :  
+900  
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float p = 1000;
+    float r = 30;
+    float n = 3;
+    float SI = (p * n * r) / 100;
+    cout << SI;
+    return 0;
+}
