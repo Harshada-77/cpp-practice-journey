@@ -1,0 +1,21 @@
+/*
+Program Name : Character to ASCII Converter  
+Description  : Converts a character to its ASCII integer value.  
+Input        : Character  
+Output       : ASCII code  
+
+Sample Run   :  
+Give input whose ASCII value needs to be calculated= A  
+65  
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Give input whose ASCII value needs to be calculated=";
+    char ch;
+    cin >> ch;
+    cout << (int)ch;
+    return 0;
+}
