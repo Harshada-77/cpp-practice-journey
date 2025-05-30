@@ -1,0 +1,22 @@
+/*
+Program Name : ASCII to Character Converter  
+Description  : Converts an ASCII value to corresponding character.  
+Input        : Integer  
+Output       : Character  
+
+Sample Run   :  
+Give number to be converted to character= 65  
+Character value of given ASCII number is= A  
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    cout << "Give number to be converted to character=";
+    cin >> x;
+    char ch = (char)x;
+    cout << "Character value of given ASCII number is=" << ch;
+    return 0;
+}
