@@ -1,0 +1,30 @@
+/*
+Program Name : Triangle Validity Checker  
+Description  : Checks whether three sides can form a triangle.  
+Input        : Three integers representing sides  
+Output       : Validity of triangle  
+
+Sample Run   :  
+Enter side A=3  
+Enter side B=4  
+Enter side C=5  
+It is a triangle  
+*/
+
+#include<iostream>
+using namespace std;
+int main() {
+    int a, b, c;
+    cout << "Enter side A= ";
+    cin >> a;
+    cout << "Enter side B= ";
+    cin >> b;
+    cout << "Enter side C= ";
+    cin >> c;
+    if(a + b > c && b + c > a && a + c > b) {
+        cout << "It is a triangle";
+    } else {
+        cout << "It is not a triangle";
+    }
+    return 0;
+}
