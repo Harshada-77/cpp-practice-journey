@@ -1,0 +1,23 @@
+/*
+Program Name : Even or Odd Checker  
+Description  : Takes a positive integer and checks whether it is even or odd.  
+Input        : A positive integer  
+Output       : Displays if the number is even or odd  
+
+Sample Run   :  
+Enter Number=7  
+Number is Odd  
+*/
+
+#include<iostream>
+using namespace std;
+int main() {
+    int x;
+    cout << "Enter Number=";
+    cin >> x;
+    if (x % 2 == 0)
+        cout << "Number is even";
+    if (x % 2 != 0)
+        cout << "Number is Odd";
+    return 0;
+}
