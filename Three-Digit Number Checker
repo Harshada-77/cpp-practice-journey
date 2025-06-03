@@ -1,0 +1,24 @@
+/*
+Program Name : Three Digit Number Checker  
+Description  : Checks whether a number is a three-digit number.  
+Input        : An integer  
+Output       : Whether it's a 3-digit number  
+
+Sample Run   :  
+Enter number=123  
+123 is a 3 digit number  
+*/
+
+#include<iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter number= ";
+    cin >> n;
+    if(n > 99 && n < 1000) {
+        cout << n << " is a 3 digit number";
+    } else {
+        cout << n << " is a not 3 digit number";
+    }
+    return 0;
+}
