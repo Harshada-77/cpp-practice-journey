@@ -1,0 +1,24 @@
+/*
+Program Name : Divisibility Checker for 3 or 5  
+Description  : Checks whether a number is divisible by either 3 or 5.  
+Input        : An integer  
+Output       : Displays divisibility  
+
+Sample Run   :  
+Enter number=10  
+10 is a div by 3 or 5  
+*/
+
+#include<iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter number= ";
+    cin >> n;
+    if(n % 5 == 0 || n % 3 == 0) {
+        cout << n << " is a div by 3 or 5";
+    } else {
+        cout << n << " is a not div by 3 or 5";
+    }
+    return 0;
+}
